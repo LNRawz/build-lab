@@ -8,6 +8,6 @@ public class Endpoint {
 
     @GetMapping
     public String versao(){
-        return System.getProperty("Versao 8");
+        return System.out.println("Versao 8");
     }
 }
