@@ -8,6 +8,5 @@ public class Endpoint {
 
     @GetMapping
     public String versao(){
-        return System.out.println("Versao 8");
-    }
+        return "java.runtime.version";
 }
